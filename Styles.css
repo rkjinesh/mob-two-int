@@ -1,0 +1,241 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  background-color: #0fdada;
+  margin: 0px;
+}
+.header-text {
+  padding: 30px 50px;
+}
+.header-text h1 {
+  font-size: 30px;
+  color: #fff;
+}
+
+.headericons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headericons span {
+  color: #fff;
+  cursor: pointer;
+}
+
+.user-container {
+  background-color: #daefef;
+  width: 100%;
+}
+
+.userDetails {
+  padding: 20px;
+  max-width: 90%;
+}
+
+.userImage img {
+  width: 80px;
+  margin-right: 20px;
+}
+
+.route-info {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sup1 {
+  background-color: #daefef;
+}
+
+/* 320px, 768px, and 1200px */
+
+@media (max-width: 475px) {
+  .header-text,
+  .headericons {
+    padding: 20px;
+  }
+  .header-text h1 {
+    font-size: 20px;
+  }
+  .userImage,
+  .userName {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .userImage img {
+    width: 50%;
+    margin-bottom: 20px;
+    margin-right: 0px;
+  }
+}
+
+.name {
+  display: flex;
+  height: 160px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.name p,
+.map p {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .nurseImage,
+  .name {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .name {
+    display: inline-block;
+    height: 30px;
+  }
+
+  .Performance-para {
+    padding-bottom: 0px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .nurseImage {
+    margin-right: 40px;
+  }
+
+  .map {
+    width: 100%;
+    padding-top: 30px;
+  }
+}
+
+.data-table {
+  margin: auto;
+  background-color: #daefef;
+}
+
+.table {
+  margin-bottom: 20px;
+}
+
+.table {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.table-data p {
+  font-size: 18px;
+}
+
+.table-data-two-col {
+  max-width: 90%;
+  margin:auto
+}
+
+.horozontal-lines {
+  border-left: 2px solid #f9ac9b;
+  height: 100px;
+}
+
+.verticurl-lines {
+  border-top: 2px solid #f9ac9b;
+  height: 100px;
+  height: 1px;
+  margin-bottom: 20px;
+}
+
+.underline {
+  border-top: 3px solid #f9ac9b;
+  height: 100px;
+  height: 1px;
+  width: 28px;
+}
+
+hr {
+  border: 2px solid black;
+  margin: 0px;
+}
+
+.white-bg-container {
+  background-color: #f6fbfb;
+}
+
+.performance {
+  width: 100%;
+  margin: 0px;
+}
+
+.performance-text {
+  padding: 30px 50px;
+}
+.performance-text h1 {
+  font-size: 25px;
+  color: #f07d6e;
+}
+
+.progress {
+  width: 100%;
+  min-height: 23px;
+  font-size: 14px;
+  background-color: rgb(193, 197, 193);
+}
+
+.zoro {
+  color: red;
+}
+.nurseImage img {
+  width: 150px;
+}
+
+.medical {
+  text-align: left;
+  padding: 20px;
+  max-width: 90%;
+  margin: auto;
+}
+
+.dropdown-form select {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  background-color: #0fdada;
+  border: none;
+}
+
+.blue-button {
+  text-align: center;
+}
+
+.footer-btn {
+  --bs-btn-padding-x: 60px;
+  margin: 20px;
+}
+
+ textarea{
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  outline: none;
+  resize: none;
+}
